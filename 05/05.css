@@ -1,0 +1,19 @@
+form {
+    width: 90%;
+    height: 200px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+form > div {
+    margin: 10px;
+    width:90%;
+    display:flex;
+    justify-content: center;
+}
+
+#txt2 {
+    background-color: palegoldenrod;
+}

@@ -1,0 +1,115 @@
+* {
+    padding:0px;
+    margin:0px;
+}
+
+/* .black-and-white-picture-regular {
+    
+  }
+   */
+
+h1 {
+    width:20%;
+    text-align: center;
+    border:10px;
+    border-style: ridge;
+    border-width:4px;
+    border-color:green;
+    padding:5px;
+    margin:3px;
+    font-family: "Black And White Picture", serif;
+    font-size:50px;
+    font-weight: 400;
+    font-style: bold;
+}
+
+/* a {
+    display:inline-block;
+    border:5px;
+    border-style:ridge;
+    border-color:coral;
+    background-color: pink;
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    background-color: blue;
+    color:white;
+}
+
+a:active {
+    background-color: green;
+    color: yellow;
+} */
+
+/* a:link, a:visited {
+    color:black;
+} */
+
+
+header {
+    padding: 20px;
+}
+
+main {
+    width:80%;
+}
+
+h2~p {
+color:coral;
+}
+
+section {
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    padding-left: 20px;
+}
+
+#reactId {
+    background-color: brown;
+}
+
+ul{
+    display:flex; /*플렉스는 개별 컨텐츠가 아닌 더큰 빡스에 준다*/
+    width:100%;
+    height:200px;
+    background-color: aquamarine;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+li{
+    width: 150px;
+    padding: 5px;
+    background-color: bisque;
+    margin:10px;
+    height:40px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+li:hover{
+    background-color: palegreen;
+}
+
+a {
+    text-decoration: none;
+    color:white;
+}
+
+@media screen and (max-width : 768px){
+    ul {
+        background-color: blueviolet;
+        display:flex;
+        flex-direction: column;
+        height: 300px;
+    }
+    li{
+        width:80%;
+        margin: 2px;
+    }
+}
