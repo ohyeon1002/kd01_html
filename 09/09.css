@@ -1,0 +1,20 @@
+h2 {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.dice {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 20px;
+}
+
+.dicediv, .btdiv {
+    margin: 10px;
+}
+
+#result {
+    font-size:30px;
+}
