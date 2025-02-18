@@ -10,8 +10,9 @@ function guesser (gs, n, img) {
     }
 }
 
-document.addEventListener('DOMContentLoaded', () => {
-    let number = Math.floor(Math.random()*100);
+document.addEventListener('DOMContentLoaded', (event) => {
+    event.preventDefault();
+    let number = Math.floor(Math.random()*100+1);
     const guess = document.querySelector('input');
     const img = document.querySelector('img');
     console.log(number);
@@ -19,6 +20,6 @@ document.addEventListener('DOMContentLoaded', () => {
         guesser(guess.value, number, img);
     });
     document.querySelector('input').addEventListener('keydown', (e) =>{
-        if(e.code == 'Enter') guesser(guess.value, number, img);
+        if(e.key == "Enter") guesser(guess.value, number, img);
     });
 });
