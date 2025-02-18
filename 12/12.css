@@ -1,0 +1,31 @@
+header+section {
+    height: 100px;
+    background-color: lightseagreen;
+}
+
+header+section>span {
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+#board {
+    margin: 25px;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.col {
+    width: 80px;
+    height: 80px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-style: inset;
+}
