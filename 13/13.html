@@ -21,9 +21,30 @@
             <h1>자바스크립트 빡스오피스</h1>
             <a href="../index.html"><i class="fa-solid fa-house"></i></a>
         </header>
-        <section>
-            <button>가져오기</button>
+        <section id="input">
+            <form>
+                <input type="date" value="" id="dt" name="dt">
+                <fieldset>
+                    <!-- <legend>영화별 조회</legend> -->
+                    <label><input type="radio" name="mvType" value="K">한국영화</label>
+                    <label><input type="radio" name="mvType" value="F">외국영화</label>
+                    <label><input type="radio" name="mvType" value="D" checked>전체</label>
+                </fieldset>
+                <button>조회</button>
+            </form>
         </section>
+
+        <section id="mv">
+            <div id="mvPoster">
+            </div>
+            <div id="mvList">
+                <ul></ul>
+            </div>
+
+        </section>
+        <!-- <section id="button">
+            <button>가져오기</button>
+        </section> -->
     </main>
 
 </body>
