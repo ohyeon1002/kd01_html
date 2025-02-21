@@ -1,3 +1,0 @@
-https://kobis.or.kr/kobisopenapi/webservice/rest/boxoffice/searchDailyBoxOfficeList.json?key=d3b2a67dbe5c3e91c4489fb343e3cbae&targetDt=20250219
-
-https://api.themoviedb.org/3/movie/550?api_key=c68d33ec596b199b4aad200ecc220841
